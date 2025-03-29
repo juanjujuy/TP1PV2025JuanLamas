@@ -1,3 +1,84 @@
-body{
-    color:blue;
+header {
+    background-color: rgb(117,170,219);
+    color: white;
+    text-align: center;
+    padding: 6px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+nav{
+    background-color: rgb(23,104,131);
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: rgb(4, 4, 82);
+}
+
+ul {
+    margin: 5px;
+    font-size: 30px;
+}
+
+.Navegacion {
+    list-style: none;
+    display: inline;
+    padding-left: 5px;
+    padding-right: 20px;
+    border-left: 2px solid;
+}
+
+.TituloDeArticulo{
+    color:rgb(4, 4, 82);
+    font-size: 30px;
+}
+
+.Subtitulo {
+    color: black;
+    font-size: 15;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.ContenidoArticulo {
+    text-align: left;
+    margin: 10px;
+}
+
+.cuerpo {
+    width: auto;
+    flex-wrap: wrap;
+    display: flex;
+    height: auto;
+ }  
+
+section {
+    width: 80%;
+    text-align: center;
+    background-color: rgb(127, 246, 255);
+}
+
+aside {
+    width: 20%;
+    text-align: center;
+    background-color: rgb(11, 109, 109);
+    margin-right:auto ;
+}
+
+footer{
+    width: 100%;
+}
+
+body {
+    background-color: rgb(4, 4, 78);
+}
+
+#listaAtajos {
+    margin: 3px;
+    font-size: 18px;
+}
+
+.atajo {
+    text-align: left;
+    padding: 3px;
+    width: 100%;
 }
