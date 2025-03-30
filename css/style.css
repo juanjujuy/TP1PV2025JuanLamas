@@ -92,3 +92,8 @@ body {
     padding: 3px;
     width: 100%;
 }
+
+.listaObras li {
+    text-align: left;
+    font-size: 18px;
+}
