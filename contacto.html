@@ -4,8 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+        <div class="conteiner">
+            <header>
+                <h1>
+                    ARGENTINA, UN LUGAR CON BUENA GENTE
+                </h1>
+            </header>
+            <nav>
+                <ul>
+                    <li class="Navegacion">
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li class="Navegacion">
+                        <a href="museos.html">Museos</a>
+                    </li>
+                    <li class="Navegacion">
+                        <a href="contacto.html">Contactos</a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <form id="contact-form">
+                    <label id="label-apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" required>
+
+                    <label id="label-nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label id="telefono">Telefono</label>
+                    <input type="number" id="telefono" name="telefono" required>
+                    <br>
+                    <br>
+
+                    <label id="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label id="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="2" required></textarea>
+
+                    <label id="provincias">¿Que Provincia visitarias?: </label>
+                    <select name="provincia" id="provincia" multiple>
+                        <option value="bsas">Buenos Aires</option>
+                        <option value="caba">Ciudad Autónoma de Buenos Aires</option>
+                        <option value="cat">Catamarca</option>
+                        <option value="cha">Chaco</option>
+                        <option value="chu">Chubut</option>
+                        <option value="cor">Córdoba</option>
+                        <option value="corr">Corrientes</option>
+                        <option value="enri">Entre Ríos</option>
+                        <option value="for">Formosa</option>
+                        <option value="juj">Jujuy</option>
+                        <option value="pam">La Pampa</option>
+                        <option value="lari">La Rioja</option>
+                        <option value="men">Mendoza</option>
+                        <option value="mis">Misiones</option>
+                        <option value="neu">Neuquén</option>
+                        <option value="rneg">Río Negro</option>
+                        <option value="sal">Salta</option>
+                        <option value="sju">San Juan</option>
+                        <option value="slu">San Luis</option>
+                        <option value="scru">Santa Cruz</option>
+                        <option value="safe">Santa Fe</option>
+                        <option value="sdes">Santiago del Estero</option>
+                        <option value="tdf">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+                        <option value="tuc">Tucumán</option>
+                        </select>
+
+                    <button type="submit" onclick="enviarFormulario()">Enviar</button>
+
+                </form>
+            </main>
+            <footer>
+                <h1>
+                    Todos Los Derechos Reservados © 2025
+                </h1>
+                <h1>
+                    Redes sociales
+                </h1>
+            </footer>
+        </div>
 </body>
+<script src="js/scripts.js"></script>
 </html>

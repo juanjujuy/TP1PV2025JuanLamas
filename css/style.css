@@ -97,3 +97,24 @@ body {
     text-align: left;
     font-size: 18px;
 }
+
+#contact-form { 
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+#contact-form label {
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+}
+
+#contact-form mensaje {
+    text-align: start;
+    padding: 40px;
+}
+
+#contact-form input {
+    width: 10%;
+    text-align: start;
+}
